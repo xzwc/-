@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container—index">
+    <!--<view bindtap="bindViewTap" class="userinfo">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+    <view class="usermotto">
+        <text class="user-motto">{{motto}}</text>
+    </view>-->
+
+    <view class="userinfo" bindtap="onAccelerometerChange">
+        <image class="slide-image " src="{{imageSrc}}" />
+    </view>
+
+    <view class="operation-section">
+        <view class="userinfo ">
+            <image class="slide-gif " src="{{gifSrc}} " />
+        </view>
+    </view>
+
+    <view class="takephoto ">
+        <!--<button class="btn-begin " bindtap="takephoto">{{title}}</button>-->
+        <view class="userinfo">
+            <image class="btn-begin " bindtap="takephoto" src="{{takeSrc}} " />
+        </view>
+    </view>
+
+    <audio id="myAudio" src="{{shakeAudioSrc}}" bindtap="takephoto"></audio>
+    <!--<audio id="myAudio" src="{{successAudioSrc}}" bindtap="takephoto"></audio>-->
+</view>
