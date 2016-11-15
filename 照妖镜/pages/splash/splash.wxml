@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="spalsh_image">
+        <image src="{{src}}" mode="aspectFill"></image>
+</view>
+</view>

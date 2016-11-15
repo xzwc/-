@@ -1,0 +1,16 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/splash/splash",
+        "pages/main/main",
+        "pages/view/view"
+
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#000",
+        "navigationBarTitleText": "照妖镜",
+        "navigationBarTextStyle": "white"
+    }
+}

@@ -1,0 +1,8 @@
+<!--main.wxml-->
+<view class="container">
+    <text class="take_photo">照妖镜</text>
+    <view class="userinfo">
+        <image class="userinfo-avatar" src="{{imagePath}}" background-size="cover" />
+        <button bindtap="downLoadImage">{{title}}</button>
+    </view>
+</view>

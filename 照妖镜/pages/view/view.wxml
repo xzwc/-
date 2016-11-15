@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container—index">
+
+    <view class="userinfo">
+        <image class="slide-image " src="{{imageSrc}}" />
+    </view>
+
+    <view class="operation-section">
+        <view class="userinfo ">
+            <image style="width:{{width}};height:{{height}}" class="slide-gif " src="{{gifSrc}} " />
+        </view>
+        <view class="operation-section">
+            <view class="qr-code ">
+                <image style="width:240rpx;height:240rpx" class="qr_code " src="{{qrCode}} " />
+                <image class="logo" style="width:150rpx;height:50rpx;" src="{{logo}} " />
+            </view>
+        </view>
+    </view>
+</view>
